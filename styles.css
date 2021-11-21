@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+  }
+
+@keyframes fade{
+  15%{
+    background-image: url(../images/);
+  }
+}
+
+body #heading {
+  background: white;
+  color: red;
+  box-shadow: 0 0 20px -10px;
+  width: auto;
+  padding-left:0%;
+  padding-right:5%;
+  box-sizing: border-box;
+  overflow: hidden;
+  outline:none;
+  }
+
+#header div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+	width:150px;
+  cursor: pointer;
+  margin:30px -9 ;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.btn{
+  border: 2em;
+  outline: none;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 10px;
+  color:white;
+  cursor: pointer;
+  background: rgb(18, 25, 27);
+}
+ 
+.btn:hover{
+  background: red;
+  transition: all 0.5s ease;
+}
+
+/* For Response to screen change in size 
+
+@media screen and (max-width: 960px){
+#header div{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0;
+}
+
+.nav{
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: -1000px;
+  opacity: 1;
+  transition: all 0.6s ease;
+  height: 50vh;
+  z-index: -1;
+}
+
+.nav ul li a {
+  background: black;
+  top: 100%;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 99;
+  height: 50vh;
+  font-size: 1.6rem;
+}
+
+.nav_toggle .bar{
+  display: block;
+  cursor: pointer;
+}
+
+}
+
+*/
+
+/* Second body */
+
+#text{
+  box-shadow: 0 0 20px -10px;
+  width: auto;
+  height: 550px;
+  box-sizing: border-box;
+  overflow: hidden;
+  outline:none;
+  background-image: url(../images/Clan\ Logo-Recovered.png);
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: 750px;
+}
+
+
+.the-text{
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 20px;
+  flex: 1;
+  text-align: left;
+}
+
+
+/* This is the footer section */
+
+.footer{
+  width: auto;
+  padding-bottom: 0%;
+  display: inline-block;
+  margin-right: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  outline:none;
+}
+
+
+.tiktok{
+  width:40px;
+}
+
+.discord{
+  width:40px;
+}
+
+.twitch{
+  width:50px;
+}
+
+.insta{
+  width:40px;
+}
+
+.youtube{
+  width:40px;
+}
+
+
+
+
+
+
